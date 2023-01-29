@@ -69,6 +69,7 @@ title: TOGETHER WE CAN
 	</blockquote>
 </div>
 
+<!--
 <div class="darker">
 	<div class="container">
 		<h2 class="editable">Join us</h2>
@@ -80,7 +81,7 @@ title: TOGETHER WE CAN
 	</div>
 </div>
 
-<!--
+
 <div class="container" id="donate">
 	<h2 class="editable">Make a donation</h2>
 	<div class="donate">
@@ -116,5 +117,16 @@ title: TOGETHER WE CAN
 			</div>
 			{% endfor %}
 		</div>
+	</div>
+</div>
+
+<div class="darker">
+	<div class="container">
+		<h2 class="editable">Join us</h2>
+		<p class="editable" style="text-align: center;">Sign up to hear the latest news and progress in our fight for the sheep vote.</p>
+		<form action="{{ site.newsletter_action }}" method="post">
+			<input type="text" name="EMAIL" placeholder="Email">
+			<input type="submit" value="Sign up"/>
+		</form>
 	</div>
 </div>
